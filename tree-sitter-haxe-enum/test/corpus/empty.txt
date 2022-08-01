@@ -1,0 +1,9 @@
+==================
+Empty
+==================
+
+enum A {}
+---
+
+(source_file
+  (enum (identifier)))

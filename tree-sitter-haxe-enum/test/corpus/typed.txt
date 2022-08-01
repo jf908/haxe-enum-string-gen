@@ -1,0 +1,23 @@
+==================
+Single
+==================
+
+enum A {
+  B;
+  C(x:Int,y:Array<String>);
+}
+---
+
+(source_file
+  (enum
+    (identifier)
+    (enum_entry (identifier))
+    (enum_entry
+      (identifier)
+      (parameters
+        (parameter (identifier) (identifier))
+        (parameter (identifier) (identifier))
+      )
+    )
+  )
+)

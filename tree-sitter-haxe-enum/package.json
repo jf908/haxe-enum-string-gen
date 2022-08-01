@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-haxe-enum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "tree-sitter generate && tree-sitter test"
+  },
+  "keywords": [],
+  "author": "jf908",
+  "devDependencies": {
+    "nan": "^2.16.0",
+    "tree-sitter-cli": "^0.20.6"
+  }
+}

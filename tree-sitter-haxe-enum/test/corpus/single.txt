@@ -1,0 +1,15 @@
+==================
+Single
+==================
+
+enum A {
+  B;
+}
+---
+
+(source_file
+  (enum
+    (identifier)
+    (enum_entry (identifier))
+  )
+)
