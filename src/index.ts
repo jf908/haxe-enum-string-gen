@@ -78,7 +78,7 @@ function regularEvent(entry: { params: { name: string; type: string }[] }) {
 	${entry.params
     .map(
       (x, i) => `public inline function get_${x.name}():${x.type} {
-		return this[${i + 1}];
+		return this[${i + 2}];
 	}`
     )
     .join('\n\n\t')}`;
